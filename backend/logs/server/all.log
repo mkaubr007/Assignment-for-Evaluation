@@ -1,0 +1,634 @@
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-10-21T05:32:45.074Z"}
+info: Connected to the database. {"timestamp":"2024-10-21T05:32:47.733Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-10-21T05:35:27.961Z"}
+info: Connected to the database. {"timestamp":"2024-10-21T05:35:27.986Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-10-21T05:48:08.466Z"}
+info: Connected to the database. {"timestamp":"2024-10-21T05:48:08.503Z"}
+error: 
+    status - 500 
+    message - ValidationError: "password" with value "Manish@123" fails to match the required pattern: /^[a-zA-Z0-9]{8,30}$/ 
+    url - /api/v1/users/register 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-10-21T05:54:16.986Z"}
+error: 
+    status - 500 
+    message - ValidationError: "email" is required 
+    url - /api/v1/users/register 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-10-21T06:06:37.964Z"}
+error: 
+    status - 500 
+    message - ValidationError: "email" with value "manishgmail.com" fails to match the required pattern: /^[\w-\.]+@([\w-]+\.)+[\w-]{2,4}$/ 
+    url - /api/v1/users/register 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-10-21T06:06:55.347Z"}
+error: uncaughtException: listen EADDRINUSE: address already in use :::3000
+Error: listen EADDRINUSE: address already in use :::3000
+    at Server.setupListenHandle [as _listen2] (node:net:1908:16)
+    at listenInCluster (node:net:1965:12)
+    at Server.listen (node:net:2067:7)
+    at Function.listen (D:\demo\Assignment-for-Evaluation\backend\node_modules\express\lib\application.js:635:24)
+    at App.startApp (D:\demo\Assignment-for-Evaluation\backend\build\index.js:51:18)
+    at new App (D:\demo\Assignment-for-Evaluation\backend\build\index.js:30:14)
+    at Object.<anonymous> (D:\demo\Assignment-for-Evaluation\backend\build\index.js:59:13)
+    at Module._compile (node:internal/modules/cjs/loader:1546:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1691:10)
+    at Module.load (node:internal/modules/cjs/loader:1317:32)
+    at Module._load (node:internal/modules/cjs/loader:1127:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:315:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:217:24)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:166:5)
+    at node:internal/main/run_main_module:30:49 {"date":"Mon Oct 21 2024 12:26:58 GMT+0530 (India Standard Time)","error":{"address":"::","code":"EADDRINUSE","errno":-4091,"port":3000,"syscall":"listen"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":8348.546},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","D:\\demo\\Assignment-for-Evaluation\\backend\\build\\index.js","build"],"cwd":"D:\\demo\\Assignment-for-Evaluation\\backend","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18262275,"external":20569433,"heapTotal":55644160,"heapUsed":24184296,"rss":85069824},"pid":19552,"uid":null,"version":"v22.9.0"},"stack":"Error: listen EADDRINUSE: address already in use :::3000\n    at Server.setupListenHandle [as _listen2] (node:net:1908:16)\n    at listenInCluster (node:net:1965:12)\n    at Server.listen (node:net:2067:7)\n    at Function.listen (D:\\demo\\Assignment-for-Evaluation\\backend\\node_modules\\express\\lib\\application.js:635:24)\n    at App.startApp (D:\\demo\\Assignment-for-Evaluation\\backend\\build\\index.js:51:18)\n    at new App (D:\\demo\\Assignment-for-Evaluation\\backend\\build\\index.js:30:14)\n    at Object.<anonymous> (D:\\demo\\Assignment-for-Evaluation\\backend\\build\\index.js:59:13)\n    at Module._compile (node:internal/modules/cjs/loader:1546:14)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1691:10)\n    at Module.load (node:internal/modules/cjs/loader:1317:32)\n    at Module._load (node:internal/modules/cjs/loader:1127:12)\n    at TracingChannel.traceSync (node:diagnostics_channel:315:14)\n    at wrapModuleLoad (node:internal/modules/cjs/loader:217:24)\n    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:166:5)\n    at node:internal/main/run_main_module:30:49","timestamp":"2024-10-21T06:56:58.535Z","trace":[{"column":16,"file":"node:net","function":"Server.setupListenHandle [as _listen2]","line":1908,"method":"setupListenHandle [as _listen2]","native":false},{"column":12,"file":"node:net","function":"listenInCluster","line":1965,"method":null,"native":false},{"column":7,"file":"node:net","function":"Server.listen","line":2067,"method":"listen","native":false},{"column":24,"file":"D:\\demo\\Assignment-for-Evaluation\\backend\\node_modules\\express\\lib\\application.js","function":"Function.listen","line":635,"method":"listen","native":false},{"column":18,"file":"D:\\demo\\Assignment-for-Evaluation\\backend\\build\\index.js","function":"App.startApp","line":51,"method":"startApp","native":false},{"column":14,"file":"D:\\demo\\Assignment-for-Evaluation\\backend\\build\\index.js","function":"new App","line":30,"method":null,"native":false},{"column":13,"file":"D:\\demo\\Assignment-for-Evaluation\\backend\\build\\index.js","function":null,"line":59,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1546,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1691,"method":".js","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":1317,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":1127,"method":"_load","native":false},{"column":14,"file":"node:diagnostics_channel","function":"TracingChannel.traceSync","line":315,"method":"traceSync","native":false},{"column":24,"file":"node:internal/modules/cjs/loader","function":"wrapModuleLoad","line":217,"method":null,"native":false},{"column":5,"file":"node:internal/modules/run_main","function":"Function.executeUserEntryPoint [as runMain]","line":166,"method":"executeUserEntryPoint [as runMain]","native":false},{"column":49,"file":"node:internal/main/run_main_module","function":null,"line":30,"method":null,"native":false}]}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-10-21T06:57:22.805Z"}
+info: Connected to the database. {"timestamp":"2024-10-21T06:57:22.816Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-10-21T07:03:31.176Z"}
+info: Connected to the database. {"timestamp":"2024-10-21T07:03:31.187Z"}
+error: 
+    status - 500 
+    message - Error: Email already exists
+    at UserService.<anonymous> (D:\demo\Assignment-for-Evaluation\backend\build\services\user.service.js:29:23)
+    at Generator.next (<anonymous>)
+    at fulfilled (D:\demo\Assignment-for-Evaluation\backend\build\services\user.service.js:5:58)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5) 
+    url - /api/v1/users/register 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-10-21T07:03:54.977Z"}
+error: 
+    status - 500 
+    message - Error: Email already exists
+    at UserService.<anonymous> (D:\demo\Assignment-for-Evaluation\backend\build\services\user.service.js:29:23)
+    at Generator.next (<anonymous>)
+    at fulfilled (D:\demo\Assignment-for-Evaluation\backend\build\services\user.service.js:5:58)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5) 
+    url - /api/v1/users/register 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-10-21T07:05:21.699Z"}
+error: 
+    status - 500 
+    message - ValidationError: "name" is required 
+    url - /api/v1/users/register 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-10-21T08:23:05.687Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-10-21T08:31:24.993Z"}
+info: Connected to the database. {"timestamp":"2024-10-21T08:31:25.014Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-10-21T08:45:46.523Z"}
+info: Connected to the database. {"timestamp":"2024-10-21T08:45:46.536Z"}
+error: 
+      status - 400
+      message - Authorization token is required 
+      url - /api/v1/users/6715fd2217e27b140408b3b9 
+      method - GET 
+      IP - ::1
+     {"timestamp":"2024-10-21T08:54:45.662Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: invalid signature
+    at D:\demo\Assignment-for-Evaluation\backend\node_modules\jsonwebtoken\verify.js:133:19
+    at getSecret (D:\demo\Assignment-for-Evaluation\backend\node_modules\jsonwebtoken\verify.js:90:14)
+    at Object.module.exports [as verify] (D:\demo\Assignment-for-Evaluation\backend\node_modules\jsonwebtoken\verify.js:94:10)
+    at D:\demo\Assignment-for-Evaluation\backend\src\middlewares\auth.middleware.ts:28:37
+    at Generator.next (<anonymous>)
+    at D:\demo\Assignment-for-Evaluation\backend\src\middlewares\auth.middleware.ts:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (D:\demo\Assignment-for-Evaluation\backend\src\middlewares\auth.middleware.ts:4:12)
+    at userAuth (D:\demo\Assignment-for-Evaluation\backend\src\middlewares\auth.middleware.ts:18:20)
+    at Layer.handle [as handle_request] (D:\demo\Assignment-for-Evaluation\backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\demo\Assignment-for-Evaluation\backend\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (D:\demo\Assignment-for-Evaluation\backend\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (D:\demo\Assignment-for-Evaluation\backend\node_modules\express\lib\router\layer.js:95:5)
+    at D:\demo\Assignment-for-Evaluation\backend\node_modules\express\lib\router\index.js:284:15
+    at param (D:\demo\Assignment-for-Evaluation\backend\node_modules\express\lib\router\index.js:365:14)
+    at param (D:\demo\Assignment-for-Evaluation\backend\node_modules\express\lib\router\index.js:376:14) 
+    url - /api/v1/users/6715fd2217e27b140408b3b9 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2024-10-21T08:56:15.768Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: invalid signature
+    at D:\demo\Assignment-for-Evaluation\backend\node_modules\jsonwebtoken\verify.js:133:19
+    at getSecret (D:\demo\Assignment-for-Evaluation\backend\node_modules\jsonwebtoken\verify.js:90:14)
+    at Object.module.exports [as verify] (D:\demo\Assignment-for-Evaluation\backend\node_modules\jsonwebtoken\verify.js:94:10)
+    at D:\demo\Assignment-for-Evaluation\backend\src\middlewares\auth.middleware.ts:28:37
+    at Generator.next (<anonymous>)
+    at D:\demo\Assignment-for-Evaluation\backend\src\middlewares\auth.middleware.ts:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (D:\demo\Assignment-for-Evaluation\backend\src\middlewares\auth.middleware.ts:4:12)
+    at userAuth (D:\demo\Assignment-for-Evaluation\backend\src\middlewares\auth.middleware.ts:18:20)
+    at Layer.handle [as handle_request] (D:\demo\Assignment-for-Evaluation\backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\demo\Assignment-for-Evaluation\backend\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (D:\demo\Assignment-for-Evaluation\backend\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (D:\demo\Assignment-for-Evaluation\backend\node_modules\express\lib\router\layer.js:95:5)
+    at D:\demo\Assignment-for-Evaluation\backend\node_modules\express\lib\router\index.js:284:15
+    at param (D:\demo\Assignment-for-Evaluation\backend\node_modules\express\lib\router\index.js:365:14)
+    at param (D:\demo\Assignment-for-Evaluation\backend\node_modules\express\lib\router\index.js:376:14) 
+    url - /api/v1/users/6715fd2217e27b140408b3b9 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2024-10-21T08:57:47.123Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: jwt malformed
+    at Object.module.exports [as verify] (D:\demo\Assignment-for-Evaluation\backend\node_modules\jsonwebtoken\verify.js:63:17)
+    at D:\demo\Assignment-for-Evaluation\backend\src\middlewares\auth.middleware.ts:28:37
+    at Generator.next (<anonymous>)
+    at D:\demo\Assignment-for-Evaluation\backend\src\middlewares\auth.middleware.ts:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (D:\demo\Assignment-for-Evaluation\backend\src\middlewares\auth.middleware.ts:4:12)
+    at userAuth (D:\demo\Assignment-for-Evaluation\backend\src\middlewares\auth.middleware.ts:18:20)
+    at Layer.handle [as handle_request] (D:\demo\Assignment-for-Evaluation\backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\demo\Assignment-for-Evaluation\backend\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (D:\demo\Assignment-for-Evaluation\backend\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (D:\demo\Assignment-for-Evaluation\backend\node_modules\express\lib\router\layer.js:95:5)
+    at D:\demo\Assignment-for-Evaluation\backend\node_modules\express\lib\router\index.js:284:15
+    at param (D:\demo\Assignment-for-Evaluation\backend\node_modules\express\lib\router\index.js:365:14)
+    at param (D:\demo\Assignment-for-Evaluation\backend\node_modules\express\lib\router\index.js:376:14)
+    at Function.process_params (D:\demo\Assignment-for-Evaluation\backend\node_modules\express\lib\router\index.js:421:3)
+    at next (D:\demo\Assignment-for-Evaluation\backend\node_modules\express\lib\router\index.js:280:10) 
+    url - /api/v1/users/6715fd2217e27b140408b3b9 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2024-10-21T09:03:41.235Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: jwt must be provided
+    at Object.module.exports [as verify] (D:\demo\Assignment-for-Evaluation\backend\node_modules\jsonwebtoken\verify.js:53:17)
+    at D:\demo\Assignment-for-Evaluation\backend\src\middlewares\auth.middleware.ts:28:37
+    at Generator.next (<anonymous>)
+    at D:\demo\Assignment-for-Evaluation\backend\src\middlewares\auth.middleware.ts:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (D:\demo\Assignment-for-Evaluation\backend\src\middlewares\auth.middleware.ts:4:12)
+    at userAuth (D:\demo\Assignment-for-Evaluation\backend\src\middlewares\auth.middleware.ts:18:20)
+    at Layer.handle [as handle_request] (D:\demo\Assignment-for-Evaluation\backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\demo\Assignment-for-Evaluation\backend\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (D:\demo\Assignment-for-Evaluation\backend\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (D:\demo\Assignment-for-Evaluation\backend\node_modules\express\lib\router\layer.js:95:5)
+    at D:\demo\Assignment-for-Evaluation\backend\node_modules\express\lib\router\index.js:284:15
+    at param (D:\demo\Assignment-for-Evaluation\backend\node_modules\express\lib\router\index.js:365:14)
+    at param (D:\demo\Assignment-for-Evaluation\backend\node_modules\express\lib\router\index.js:376:14)
+    at Function.process_params (D:\demo\Assignment-for-Evaluation\backend\node_modules\express\lib\router\index.js:421:3)
+    at next (D:\demo\Assignment-for-Evaluation\backend\node_modules\express\lib\router\index.js:280:10) 
+    url - /api/v1/users/6715fd2217e27b140408b3b9 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2024-10-21T09:04:44.475Z"}
+error: 
+      status - 400
+      message - Authorization token is required 
+      url - /api/v1/users/6715fd2217e27b140408b3b9 
+      method - GET 
+      IP - ::1
+     {"timestamp":"2024-10-21T09:06:35.080Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: jwt must be provided
+    at Object.module.exports [as verify] (D:\demo\Assignment-for-Evaluation\backend\node_modules\jsonwebtoken\verify.js:53:17)
+    at D:\demo\Assignment-for-Evaluation\backend\src\middlewares\auth.middleware.ts:28:37
+    at Generator.next (<anonymous>)
+    at D:\demo\Assignment-for-Evaluation\backend\src\middlewares\auth.middleware.ts:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (D:\demo\Assignment-for-Evaluation\backend\src\middlewares\auth.middleware.ts:4:12)
+    at userAuth (D:\demo\Assignment-for-Evaluation\backend\src\middlewares\auth.middleware.ts:18:20)
+    at Layer.handle [as handle_request] (D:\demo\Assignment-for-Evaluation\backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\demo\Assignment-for-Evaluation\backend\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (D:\demo\Assignment-for-Evaluation\backend\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (D:\demo\Assignment-for-Evaluation\backend\node_modules\express\lib\router\layer.js:95:5)
+    at D:\demo\Assignment-for-Evaluation\backend\node_modules\express\lib\router\index.js:284:15
+    at param (D:\demo\Assignment-for-Evaluation\backend\node_modules\express\lib\router\index.js:365:14)
+    at param (D:\demo\Assignment-for-Evaluation\backend\node_modules\express\lib\router\index.js:376:14)
+    at Function.process_params (D:\demo\Assignment-for-Evaluation\backend\node_modules\express\lib\router\index.js:421:3)
+    at next (D:\demo\Assignment-for-Evaluation\backend\node_modules\express\lib\router\index.js:280:10) 
+    url - /api/v1/users/6715fd2217e27b140408b3b9 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2024-10-21T09:06:42.593Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: jwt must be provided
+    at Object.module.exports [as verify] (D:\demo\Assignment-for-Evaluation\backend\node_modules\jsonwebtoken\verify.js:53:17)
+    at D:\demo\Assignment-for-Evaluation\backend\src\middlewares\auth.middleware.ts:28:37
+    at Generator.next (<anonymous>)
+    at D:\demo\Assignment-for-Evaluation\backend\src\middlewares\auth.middleware.ts:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (D:\demo\Assignment-for-Evaluation\backend\src\middlewares\auth.middleware.ts:4:12)
+    at userAuth (D:\demo\Assignment-for-Evaluation\backend\src\middlewares\auth.middleware.ts:18:20)
+    at Layer.handle [as handle_request] (D:\demo\Assignment-for-Evaluation\backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\demo\Assignment-for-Evaluation\backend\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (D:\demo\Assignment-for-Evaluation\backend\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (D:\demo\Assignment-for-Evaluation\backend\node_modules\express\lib\router\layer.js:95:5)
+    at D:\demo\Assignment-for-Evaluation\backend\node_modules\express\lib\router\index.js:284:15
+    at param (D:\demo\Assignment-for-Evaluation\backend\node_modules\express\lib\router\index.js:365:14)
+    at param (D:\demo\Assignment-for-Evaluation\backend\node_modules\express\lib\router\index.js:376:14)
+    at Function.process_params (D:\demo\Assignment-for-Evaluation\backend\node_modules\express\lib\router\index.js:421:3)
+    at next (D:\demo\Assignment-for-Evaluation\backend\node_modules\express\lib\router\index.js:280:10) 
+    url - /api/v1/users/6715fd2217e27b140408b3b9 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2024-10-21T09:07:02.760Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: jwt must be provided
+    at Object.module.exports [as verify] (D:\demo\Assignment-for-Evaluation\backend\node_modules\jsonwebtoken\verify.js:53:17)
+    at D:\demo\Assignment-for-Evaluation\backend\src\middlewares\auth.middleware.ts:28:37
+    at Generator.next (<anonymous>)
+    at D:\demo\Assignment-for-Evaluation\backend\src\middlewares\auth.middleware.ts:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (D:\demo\Assignment-for-Evaluation\backend\src\middlewares\auth.middleware.ts:4:12)
+    at userAuth (D:\demo\Assignment-for-Evaluation\backend\src\middlewares\auth.middleware.ts:18:20)
+    at Layer.handle [as handle_request] (D:\demo\Assignment-for-Evaluation\backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\demo\Assignment-for-Evaluation\backend\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (D:\demo\Assignment-for-Evaluation\backend\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (D:\demo\Assignment-for-Evaluation\backend\node_modules\express\lib\router\layer.js:95:5)
+    at D:\demo\Assignment-for-Evaluation\backend\node_modules\express\lib\router\index.js:284:15
+    at param (D:\demo\Assignment-for-Evaluation\backend\node_modules\express\lib\router\index.js:365:14)
+    at param (D:\demo\Assignment-for-Evaluation\backend\node_modules\express\lib\router\index.js:376:14)
+    at Function.process_params (D:\demo\Assignment-for-Evaluation\backend\node_modules\express\lib\router\index.js:421:3)
+    at next (D:\demo\Assignment-for-Evaluation\backend\node_modules\express\lib\router\index.js:280:10) 
+    url - /api/v1/users/6715fd2217e27b140408b3b9 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2024-10-21T09:22:45.003Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: jwt must be provided
+    at Object.module.exports [as verify] (D:\demo\Assignment-for-Evaluation\backend\node_modules\jsonwebtoken\verify.js:53:17)
+    at D:\demo\Assignment-for-Evaluation\backend\src\middlewares\auth.middleware.ts:28:37
+    at Generator.next (<anonymous>)
+    at D:\demo\Assignment-for-Evaluation\backend\src\middlewares\auth.middleware.ts:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (D:\demo\Assignment-for-Evaluation\backend\src\middlewares\auth.middleware.ts:4:12)
+    at userAuth (D:\demo\Assignment-for-Evaluation\backend\src\middlewares\auth.middleware.ts:18:20)
+    at Layer.handle [as handle_request] (D:\demo\Assignment-for-Evaluation\backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\demo\Assignment-for-Evaluation\backend\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (D:\demo\Assignment-for-Evaluation\backend\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (D:\demo\Assignment-for-Evaluation\backend\node_modules\express\lib\router\layer.js:95:5)
+    at D:\demo\Assignment-for-Evaluation\backend\node_modules\express\lib\router\index.js:284:15
+    at param (D:\demo\Assignment-for-Evaluation\backend\node_modules\express\lib\router\index.js:365:14)
+    at param (D:\demo\Assignment-for-Evaluation\backend\node_modules\express\lib\router\index.js:376:14)
+    at Function.process_params (D:\demo\Assignment-for-Evaluation\backend\node_modules\express\lib\router\index.js:421:3)
+    at next (D:\demo\Assignment-for-Evaluation\backend\node_modules\express\lib\router\index.js:280:10) 
+    url - /api/v1/users/6715fd2217e27b140408b3b9 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2024-10-21T09:24:29.500Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: jwt must be provided
+    at Object.module.exports [as verify] (D:\demo\Assignment-for-Evaluation\backend\node_modules\jsonwebtoken\verify.js:53:17)
+    at D:\demo\Assignment-for-Evaluation\backend\src\middlewares\auth.middleware.ts:28:37
+    at Generator.next (<anonymous>)
+    at D:\demo\Assignment-for-Evaluation\backend\src\middlewares\auth.middleware.ts:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (D:\demo\Assignment-for-Evaluation\backend\src\middlewares\auth.middleware.ts:4:12)
+    at userAuth (D:\demo\Assignment-for-Evaluation\backend\src\middlewares\auth.middleware.ts:18:20)
+    at Layer.handle [as handle_request] (D:\demo\Assignment-for-Evaluation\backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\demo\Assignment-for-Evaluation\backend\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (D:\demo\Assignment-for-Evaluation\backend\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (D:\demo\Assignment-for-Evaluation\backend\node_modules\express\lib\router\layer.js:95:5)
+    at D:\demo\Assignment-for-Evaluation\backend\node_modules\express\lib\router\index.js:284:15
+    at param (D:\demo\Assignment-for-Evaluation\backend\node_modules\express\lib\router\index.js:365:14)
+    at param (D:\demo\Assignment-for-Evaluation\backend\node_modules\express\lib\router\index.js:376:14)
+    at Function.process_params (D:\demo\Assignment-for-Evaluation\backend\node_modules\express\lib\router\index.js:421:3)
+    at next (D:\demo\Assignment-for-Evaluation\backend\node_modules\express\lib\router\index.js:280:10) 
+    url - /api/v1/users/6715fd2217e27b140408b3b9 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2024-10-21T09:26:32.880Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-10-21T09:28:04.111Z"}
+info: Connected to the database. {"timestamp":"2024-10-21T09:28:04.137Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: jwt must be provided
+    at Object.module.exports [as verify] (D:\demo\Assignment-for-Evaluation\backend\node_modules\jsonwebtoken\verify.js:53:17)
+    at D:\demo\Assignment-for-Evaluation\backend\src\middlewares\auth.middleware.ts:28:37
+    at Generator.next (<anonymous>)
+    at D:\demo\Assignment-for-Evaluation\backend\src\middlewares\auth.middleware.ts:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (D:\demo\Assignment-for-Evaluation\backend\src\middlewares\auth.middleware.ts:4:12)
+    at userAuth (D:\demo\Assignment-for-Evaluation\backend\src\middlewares\auth.middleware.ts:18:20)
+    at Layer.handle [as handle_request] (D:\demo\Assignment-for-Evaluation\backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\demo\Assignment-for-Evaluation\backend\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (D:\demo\Assignment-for-Evaluation\backend\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (D:\demo\Assignment-for-Evaluation\backend\node_modules\express\lib\router\layer.js:95:5)
+    at D:\demo\Assignment-for-Evaluation\backend\node_modules\express\lib\router\index.js:284:15
+    at param (D:\demo\Assignment-for-Evaluation\backend\node_modules\express\lib\router\index.js:365:14)
+    at param (D:\demo\Assignment-for-Evaluation\backend\node_modules\express\lib\router\index.js:376:14)
+    at Function.process_params (D:\demo\Assignment-for-Evaluation\backend\node_modules\express\lib\router\index.js:421:3)
+    at next (D:\demo\Assignment-for-Evaluation\backend\node_modules\express\lib\router\index.js:280:10) 
+    url - /api/v1/users/6715fd2217e27b140408b3b9 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2024-10-21T09:28:09.977Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: jwt must be provided
+    at Object.module.exports [as verify] (D:\demo\Assignment-for-Evaluation\backend\node_modules\jsonwebtoken\verify.js:53:17)
+    at D:\demo\Assignment-for-Evaluation\backend\src\middlewares\auth.middleware.ts:28:37
+    at Generator.next (<anonymous>)
+    at D:\demo\Assignment-for-Evaluation\backend\src\middlewares\auth.middleware.ts:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (D:\demo\Assignment-for-Evaluation\backend\src\middlewares\auth.middleware.ts:4:12)
+    at userAuth (D:\demo\Assignment-for-Evaluation\backend\src\middlewares\auth.middleware.ts:18:20)
+    at Layer.handle [as handle_request] (D:\demo\Assignment-for-Evaluation\backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\demo\Assignment-for-Evaluation\backend\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (D:\demo\Assignment-for-Evaluation\backend\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (D:\demo\Assignment-for-Evaluation\backend\node_modules\express\lib\router\layer.js:95:5)
+    at D:\demo\Assignment-for-Evaluation\backend\node_modules\express\lib\router\index.js:284:15
+    at param (D:\demo\Assignment-for-Evaluation\backend\node_modules\express\lib\router\index.js:365:14)
+    at param (D:\demo\Assignment-for-Evaluation\backend\node_modules\express\lib\router\index.js:376:14)
+    at Function.process_params (D:\demo\Assignment-for-Evaluation\backend\node_modules\express\lib\router\index.js:421:3)
+    at next (D:\demo\Assignment-for-Evaluation\backend\node_modules\express\lib\router\index.js:280:10) 
+    url - /api/v1/users/6715fd2217e27b140408b3b9 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2024-10-21T09:29:03.964Z"}
+error: 
+    status - 500 
+    message - ValidationError: Password must contain at least one uppercase letter, one lowercase letter, one number, and one special character. 
+    url - /api/v1/users/register 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-10-21T09:40:45.971Z"}
+error: 
+    status - 500 
+    message - ValidationError: Password must contain at least one uppercase letter, one lowercase letter, one number, and one special character. 
+    url - /api/v1/users/register 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-10-21T09:41:02.446Z"}
+error: 
+    status - 500 
+    message - ValidationError: Password must contain at least one uppercase letter, one lowercase letter, one number, and one special character. 
+    url - /api/v1/users/register 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-10-21T09:41:45.788Z"}
+error: 
+    status - 500 
+    message - ValidationError: Password must contain at least one uppercase letter, one lowercase letter, one number, and one special character. 
+    url - /api/v1/users/register 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-10-21T09:41:53.500Z"}
+error: 
+    status - 500 
+    message - ValidationError: Password must contain at least one uppercase letter, one lowercase letter, one number, and one special character. 
+    url - /api/v1/users/register 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-10-21T09:41:59.273Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-10-21T09:42:15.808Z"}
+info: Connected to the database. {"timestamp":"2024-10-21T09:42:15.827Z"}
+error: 
+    status - 500 
+    message - ValidationError: Password must contain at least one uppercase letter, one lowercase letter, one number, and one special character. 
+    url - /api/v1/users/register 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-10-21T09:42:24.641Z"}
+error: 
+    status - 500 
+    message - ValidationError: Password must contain at least one uppercase letter, one lowercase letter, one number, and one special character. 
+    url - /api/v1/users/register 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-10-21T09:42:26.974Z"}
+error: 
+    status - 500 
+    message - ValidationError: Password must contain at least one uppercase letter, one lowercase letter, one number, and one special character. 
+    url - /api/v1/users/register 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-10-21T09:42:28.147Z"}
+error: 
+    status - 500 
+    message - ValidationError: Password must contain at least one uppercase letter, one lowercase letter, one number, and one special character. 
+    url - /api/v1/users/register 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-10-21T09:42:30.364Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-10-21T09:44:32.592Z"}
+info: Connected to the database. {"timestamp":"2024-10-21T09:44:32.616Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-10-21T09:45:07.002Z"}
+info: Connected to the database. {"timestamp":"2024-10-21T09:45:07.031Z"}
+error: 
+    status - 500 
+    message - ValidationError: Password must contain at least one uppercase letter, one lowercase letter, one number, and one special character with 8 characters. 
+    url - /api/v1/users/register 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-10-21T09:45:12.597Z"}
+error: 
+    status - 500 
+    message - ValidationError: Password must contain at least one uppercase letter, one lowercase letter, one number, and one special character with 8 characters. 
+    url - /api/v1/users/register 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-10-21T09:45:14.605Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-10-21T09:47:22.525Z"}
+info: Connected to the database. {"timestamp":"2024-10-21T09:47:22.558Z"}
+error: 
+    status - 500 
+    message - Error: Email already exists
+    at UserService.<anonymous> (D:\demo\Assignment-for-Evaluation\backend\src\services\user.service.ts:18:13)
+    at Generator.next (<anonymous>)
+    at fulfilled (D:\demo\Assignment-for-Evaluation\backend\src\services\user.service.ts:5:58)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5) 
+    url - /api/v1/users/register 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-10-21T09:48:02.502Z"}
+error: 
+    status - 500 
+    message - Error: Invalid email or password
+    at UserService.<anonymous> (D:\demo\Assignment-for-Evaluation\backend\src\services\user.service.ts:36:13)
+    at Generator.next (<anonymous>)
+    at fulfilled (D:\demo\Assignment-for-Evaluation\backend\src\services\user.service.ts:5:58) 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-10-21T09:48:17.081Z"}
+error: 
+      status - 400
+      message - Authorization token is required 
+      url - /api/v1/users/6716232ff16c221158e84bdc 
+      method - GET 
+      IP - ::1
+     {"timestamp":"2024-10-21T09:52:00.496Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-10-21T09:53:30.883Z"}
+info: Connected to the database. {"timestamp":"2024-10-21T09:53:30.909Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-10-21T09:55:50.424Z"}
+info: Connected to the database. {"timestamp":"2024-10-21T09:55:50.448Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-10-21T09:56:34.580Z"}
+info: Connected to the database. {"timestamp":"2024-10-21T09:56:34.605Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-10-21T09:57:09.633Z"}
+info: Connected to the database. {"timestamp":"2024-10-21T09:57:09.660Z"}
+error: uncaughtException: Route.post() requires a callback function but got a [object Undefined]
+Error: Route.post() requires a callback function but got a [object Undefined]
+    at Route.<computed> [as post] (D:\demo\Assignment-for-Evaluation\backend\node_modules\express\lib\router\route.js:216:15)
+    at Function.proto.<computed> [as post] (D:\demo\Assignment-for-Evaluation\backend\node_modules\express\lib\router\index.js:521:19)
+    at UserRoutes.routes (D:\demo\Assignment-for-Evaluation\backend\src\routes\user.route.ts:27:17)
+    at new UserRoutes (D:\demo\Assignment-for-Evaluation\backend\src\routes\user.route.ts:12:10)
+    at routes (D:\demo\Assignment-for-Evaluation\backend\src\routes\index.ts:15:24)
+    at App.initializeRoutes (D:\demo\Assignment-for-Evaluation\backend\src\index.ts:52:52)
+    at new App (D:\demo\Assignment-for-Evaluation\backend\src\index.ts:33:10)
+    at Object.<anonymous> (D:\demo\Assignment-for-Evaluation\backend\src\index.ts:74:13)
+    at Module._compile (node:internal/modules/cjs/loader:1546:14)
+    at Module._compile (D:\demo\Assignment-for-Evaluation\backend\node_modules\source-map-support\source-map-support.js:568:25)
+    at Module.m._compile (C:\Users\hp\AppData\Local\Temp\ts-node-dev-hook-695015637784278.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1691:10)
+    at require.extensions..jsx.require.extensions..js (C:\Users\hp\AppData\Local\Temp\ts-node-dev-hook-695015637784278.js:114:20)
+    at require.extensions.<computed> (C:\Users\hp\AppData\Local\Temp\ts-node-dev-hook-695015637784278.js:71:20)
+    at Object.nodeDevHook [as .ts] (D:\demo\Assignment-for-Evaluation\backend\node_modules\ts-node-dev\lib\hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:1317:32) {"date":"Mon Oct 21 2024 15:30:52 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":19382.406},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","./src/index.ts"],"cwd":"D:\\demo\\Assignment-for-Evaluation\\backend","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18384385,"external":20633883,"heapTotal":56537088,"heapUsed":26931168,"rss":78807040},"pid":14516,"uid":null,"version":"v22.9.0"},"stack":"Error: Route.post() requires a callback function but got a [object Undefined]\n    at Route.<computed> [as post] (D:\\demo\\Assignment-for-Evaluation\\backend\\node_modules\\express\\lib\\router\\route.js:216:15)\n    at Function.proto.<computed> [as post] (D:\\demo\\Assignment-for-Evaluation\\backend\\node_modules\\express\\lib\\router\\index.js:521:19)\n    at UserRoutes.routes (D:\\demo\\Assignment-for-Evaluation\\backend\\src\\routes\\user.route.ts:27:17)\n    at new UserRoutes (D:\\demo\\Assignment-for-Evaluation\\backend\\src\\routes\\user.route.ts:12:10)\n    at routes (D:\\demo\\Assignment-for-Evaluation\\backend\\src\\routes\\index.ts:15:24)\n    at App.initializeRoutes (D:\\demo\\Assignment-for-Evaluation\\backend\\src\\index.ts:52:52)\n    at new App (D:\\demo\\Assignment-for-Evaluation\\backend\\src\\index.ts:33:10)\n    at Object.<anonymous> (D:\\demo\\Assignment-for-Evaluation\\backend\\src\\index.ts:74:13)\n    at Module._compile (node:internal/modules/cjs/loader:1546:14)\n    at Module._compile (D:\\demo\\Assignment-for-Evaluation\\backend\\node_modules\\source-map-support\\source-map-support.js:568:25)\n    at Module.m._compile (C:\\Users\\hp\\AppData\\Local\\Temp\\ts-node-dev-hook-695015637784278.js:69:33)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1691:10)\n    at require.extensions..jsx.require.extensions..js (C:\\Users\\hp\\AppData\\Local\\Temp\\ts-node-dev-hook-695015637784278.js:114:20)\n    at require.extensions.<computed> (C:\\Users\\hp\\AppData\\Local\\Temp\\ts-node-dev-hook-695015637784278.js:71:20)\n    at Object.nodeDevHook [as .ts] (D:\\demo\\Assignment-for-Evaluation\\backend\\node_modules\\ts-node-dev\\lib\\hook.js:63:13)\n    at Module.load (node:internal/modules/cjs/loader:1317:32)","timestamp":"2024-10-21T10:00:52.393Z","trace":[{"column":15,"file":"D:\\demo\\Assignment-for-Evaluation\\backend\\node_modules\\express\\lib\\router\\route.js","function":"Route.<computed> [as post]","line":216,"method":"<computed> [as post]","native":false},{"column":19,"file":"D:\\demo\\Assignment-for-Evaluation\\backend\\node_modules\\express\\lib\\router\\index.js","function":"Function.proto.<computed> [as post]","line":521,"method":"<computed> [as post]","native":false},{"column":17,"file":"D:\\demo\\Assignment-for-Evaluation\\backend\\src\\routes\\user.route.ts","function":"UserRoutes.routes","line":27,"method":"routes","native":false},{"column":10,"file":"D:\\demo\\Assignment-for-Evaluation\\backend\\src\\routes\\user.route.ts","function":"new UserRoutes","line":12,"method":null,"native":false},{"column":24,"file":"D:\\demo\\Assignment-for-Evaluation\\backend\\src\\routes\\index.ts","function":"routes","line":15,"method":null,"native":false},{"column":52,"file":"D:\\demo\\Assignment-for-Evaluation\\backend\\src\\index.ts","function":"App.initializeRoutes","line":52,"method":"initializeRoutes","native":false},{"column":10,"file":"D:\\demo\\Assignment-for-Evaluation\\backend\\src\\index.ts","function":"new App","line":33,"method":null,"native":false},{"column":13,"file":"D:\\demo\\Assignment-for-Evaluation\\backend\\src\\index.ts","function":null,"line":74,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1546,"method":"_compile","native":false},{"column":25,"file":"D:\\demo\\Assignment-for-Evaluation\\backend\\node_modules\\source-map-support\\source-map-support.js","function":"Module._compile","line":568,"method":"_compile","native":false},{"column":33,"file":"C:\\Users\\hp\\AppData\\Local\\Temp\\ts-node-dev-hook-695015637784278.js","function":"Module.m._compile","line":69,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1691,"method":".js","native":false},{"column":20,"file":"C:\\Users\\hp\\AppData\\Local\\Temp\\ts-node-dev-hook-695015637784278.js","function":"require.extensions..jsx.require.extensions..js","line":114,"method":".js","native":false},{"column":20,"file":"C:\\Users\\hp\\AppData\\Local\\Temp\\ts-node-dev-hook-695015637784278.js","function":"require.extensions.<computed>","line":71,"method":"<computed>","native":false},{"column":13,"file":"D:\\demo\\Assignment-for-Evaluation\\backend\\node_modules\\ts-node-dev\\lib\\hook.js","function":"Object.nodeDevHook [as .ts]","line":63,"method":"ts]","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":1317,"method":"load","native":false}]}
+error: uncaughtException: Route.post() requires a callback function but got a [object Undefined]
+Error: Route.post() requires a callback function but got a [object Undefined]
+    at Route.<computed> [as post] (D:\demo\Assignment-for-Evaluation\backend\node_modules\express\lib\router\route.js:216:15)
+    at Function.proto.<computed> [as post] (D:\demo\Assignment-for-Evaluation\backend\node_modules\express\lib\router\index.js:521:19)
+    at UserRoutes.routes (D:\demo\Assignment-for-Evaluation\backend\src\routes\user.route.ts:27:17)
+    at new UserRoutes (D:\demo\Assignment-for-Evaluation\backend\src\routes\user.route.ts:12:10)
+    at routes (D:\demo\Assignment-for-Evaluation\backend\src\routes\index.ts:15:24)
+    at App.initializeRoutes (D:\demo\Assignment-for-Evaluation\backend\src\index.ts:52:52)
+    at new App (D:\demo\Assignment-for-Evaluation\backend\src\index.ts:33:10)
+    at Object.<anonymous> (D:\demo\Assignment-for-Evaluation\backend\src\index.ts:74:13)
+    at Module._compile (node:internal/modules/cjs/loader:1546:14)
+    at Module._compile (D:\demo\Assignment-for-Evaluation\backend\node_modules\source-map-support\source-map-support.js:568:25)
+    at Module.m._compile (C:\Users\hp\AppData\Local\Temp\ts-node-dev-hook-695015637784278.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1691:10)
+    at require.extensions..jsx.require.extensions..js (C:\Users\hp\AppData\Local\Temp\ts-node-dev-hook-695015637784278.js:114:20)
+    at require.extensions.<computed> (C:\Users\hp\AppData\Local\Temp\ts-node-dev-hook-695015637784278.js:71:20)
+    at Object.nodeDevHook [as .ts] (D:\demo\Assignment-for-Evaluation\backend\node_modules\ts-node-dev\lib\hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:1317:32) {"date":"Mon Oct 21 2024 15:31:07 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":19397.921},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","./src/index.ts"],"cwd":"D:\\demo\\Assignment-for-Evaluation\\backend","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18384385,"external":20633883,"heapTotal":56537088,"heapUsed":26804392,"rss":79290368},"pid":18564,"uid":null,"version":"v22.9.0"},"stack":"Error: Route.post() requires a callback function but got a [object Undefined]\n    at Route.<computed> [as post] (D:\\demo\\Assignment-for-Evaluation\\backend\\node_modules\\express\\lib\\router\\route.js:216:15)\n    at Function.proto.<computed> [as post] (D:\\demo\\Assignment-for-Evaluation\\backend\\node_modules\\express\\lib\\router\\index.js:521:19)\n    at UserRoutes.routes (D:\\demo\\Assignment-for-Evaluation\\backend\\src\\routes\\user.route.ts:27:17)\n    at new UserRoutes (D:\\demo\\Assignment-for-Evaluation\\backend\\src\\routes\\user.route.ts:12:10)\n    at routes (D:\\demo\\Assignment-for-Evaluation\\backend\\src\\routes\\index.ts:15:24)\n    at App.initializeRoutes (D:\\demo\\Assignment-for-Evaluation\\backend\\src\\index.ts:52:52)\n    at new App (D:\\demo\\Assignment-for-Evaluation\\backend\\src\\index.ts:33:10)\n    at Object.<anonymous> (D:\\demo\\Assignment-for-Evaluation\\backend\\src\\index.ts:74:13)\n    at Module._compile (node:internal/modules/cjs/loader:1546:14)\n    at Module._compile (D:\\demo\\Assignment-for-Evaluation\\backend\\node_modules\\source-map-support\\source-map-support.js:568:25)\n    at Module.m._compile (C:\\Users\\hp\\AppData\\Local\\Temp\\ts-node-dev-hook-695015637784278.js:69:33)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1691:10)\n    at require.extensions..jsx.require.extensions..js (C:\\Users\\hp\\AppData\\Local\\Temp\\ts-node-dev-hook-695015637784278.js:114:20)\n    at require.extensions.<computed> (C:\\Users\\hp\\AppData\\Local\\Temp\\ts-node-dev-hook-695015637784278.js:71:20)\n    at Object.nodeDevHook [as .ts] (D:\\demo\\Assignment-for-Evaluation\\backend\\node_modules\\ts-node-dev\\lib\\hook.js:63:13)\n    at Module.load (node:internal/modules/cjs/loader:1317:32)","timestamp":"2024-10-21T10:01:07.899Z","trace":[{"column":15,"file":"D:\\demo\\Assignment-for-Evaluation\\backend\\node_modules\\express\\lib\\router\\route.js","function":"Route.<computed> [as post]","line":216,"method":"<computed> [as post]","native":false},{"column":19,"file":"D:\\demo\\Assignment-for-Evaluation\\backend\\node_modules\\express\\lib\\router\\index.js","function":"Function.proto.<computed> [as post]","line":521,"method":"<computed> [as post]","native":false},{"column":17,"file":"D:\\demo\\Assignment-for-Evaluation\\backend\\src\\routes\\user.route.ts","function":"UserRoutes.routes","line":27,"method":"routes","native":false},{"column":10,"file":"D:\\demo\\Assignment-for-Evaluation\\backend\\src\\routes\\user.route.ts","function":"new UserRoutes","line":12,"method":null,"native":false},{"column":24,"file":"D:\\demo\\Assignment-for-Evaluation\\backend\\src\\routes\\index.ts","function":"routes","line":15,"method":null,"native":false},{"column":52,"file":"D:\\demo\\Assignment-for-Evaluation\\backend\\src\\index.ts","function":"App.initializeRoutes","line":52,"method":"initializeRoutes","native":false},{"column":10,"file":"D:\\demo\\Assignment-for-Evaluation\\backend\\src\\index.ts","function":"new App","line":33,"method":null,"native":false},{"column":13,"file":"D:\\demo\\Assignment-for-Evaluation\\backend\\src\\index.ts","function":null,"line":74,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1546,"method":"_compile","native":false},{"column":25,"file":"D:\\demo\\Assignment-for-Evaluation\\backend\\node_modules\\source-map-support\\source-map-support.js","function":"Module._compile","line":568,"method":"_compile","native":false},{"column":33,"file":"C:\\Users\\hp\\AppData\\Local\\Temp\\ts-node-dev-hook-695015637784278.js","function":"Module.m._compile","line":69,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1691,"method":".js","native":false},{"column":20,"file":"C:\\Users\\hp\\AppData\\Local\\Temp\\ts-node-dev-hook-695015637784278.js","function":"require.extensions..jsx.require.extensions..js","line":114,"method":".js","native":false},{"column":20,"file":"C:\\Users\\hp\\AppData\\Local\\Temp\\ts-node-dev-hook-695015637784278.js","function":"require.extensions.<computed>","line":71,"method":"<computed>","native":false},{"column":13,"file":"D:\\demo\\Assignment-for-Evaluation\\backend\\node_modules\\ts-node-dev\\lib\\hook.js","function":"Object.nodeDevHook [as .ts]","line":63,"method":"ts]","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":1317,"method":"load","native":false}]}
+error: uncaughtException: Route.post() requires a callback function but got a [object Undefined]
+Error: Route.post() requires a callback function but got a [object Undefined]
+    at Route.<computed> [as post] (D:\demo\Assignment-for-Evaluation\backend\node_modules\express\lib\router\route.js:216:15)
+    at Function.proto.<computed> [as post] (D:\demo\Assignment-for-Evaluation\backend\node_modules\express\lib\router\index.js:521:19)
+    at UserRoutes.routes (D:\demo\Assignment-for-Evaluation\backend\src\routes\user.route.ts:27:17)
+    at new UserRoutes (D:\demo\Assignment-for-Evaluation\backend\src\routes\user.route.ts:12:10)
+    at routes (D:\demo\Assignment-for-Evaluation\backend\src\routes\index.ts:15:24)
+    at App.initializeRoutes (D:\demo\Assignment-for-Evaluation\backend\src\index.ts:52:52)
+    at new App (D:\demo\Assignment-for-Evaluation\backend\src\index.ts:33:10)
+    at Object.<anonymous> (D:\demo\Assignment-for-Evaluation\backend\src\index.ts:74:13)
+    at Module._compile (node:internal/modules/cjs/loader:1546:14)
+    at Module._compile (D:\demo\Assignment-for-Evaluation\backend\node_modules\source-map-support\source-map-support.js:568:25)
+    at Module.m._compile (C:\Users\hp\AppData\Local\Temp\ts-node-dev-hook-695015637784278.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1691:10)
+    at require.extensions..jsx.require.extensions..js (C:\Users\hp\AppData\Local\Temp\ts-node-dev-hook-695015637784278.js:114:20)
+    at require.extensions.<computed> (C:\Users\hp\AppData\Local\Temp\ts-node-dev-hook-695015637784278.js:71:20)
+    at Object.nodeDevHook [as .ts] (D:\demo\Assignment-for-Evaluation\backend\node_modules\ts-node-dev\lib\hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:1317:32) {"date":"Mon Oct 21 2024 15:31:25 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":19415.843},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","./src/index.ts"],"cwd":"D:\\demo\\Assignment-for-Evaluation\\backend","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18384385,"external":20633883,"heapTotal":56537088,"heapUsed":26712048,"rss":79097856},"pid":14576,"uid":null,"version":"v22.9.0"},"stack":"Error: Route.post() requires a callback function but got a [object Undefined]\n    at Route.<computed> [as post] (D:\\demo\\Assignment-for-Evaluation\\backend\\node_modules\\express\\lib\\router\\route.js:216:15)\n    at Function.proto.<computed> [as post] (D:\\demo\\Assignment-for-Evaluation\\backend\\node_modules\\express\\lib\\router\\index.js:521:19)\n    at UserRoutes.routes (D:\\demo\\Assignment-for-Evaluation\\backend\\src\\routes\\user.route.ts:27:17)\n    at new UserRoutes (D:\\demo\\Assignment-for-Evaluation\\backend\\src\\routes\\user.route.ts:12:10)\n    at routes (D:\\demo\\Assignment-for-Evaluation\\backend\\src\\routes\\index.ts:15:24)\n    at App.initializeRoutes (D:\\demo\\Assignment-for-Evaluation\\backend\\src\\index.ts:52:52)\n    at new App (D:\\demo\\Assignment-for-Evaluation\\backend\\src\\index.ts:33:10)\n    at Object.<anonymous> (D:\\demo\\Assignment-for-Evaluation\\backend\\src\\index.ts:74:13)\n    at Module._compile (node:internal/modules/cjs/loader:1546:14)\n    at Module._compile (D:\\demo\\Assignment-for-Evaluation\\backend\\node_modules\\source-map-support\\source-map-support.js:568:25)\n    at Module.m._compile (C:\\Users\\hp\\AppData\\Local\\Temp\\ts-node-dev-hook-695015637784278.js:69:33)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1691:10)\n    at require.extensions..jsx.require.extensions..js (C:\\Users\\hp\\AppData\\Local\\Temp\\ts-node-dev-hook-695015637784278.js:114:20)\n    at require.extensions.<computed> (C:\\Users\\hp\\AppData\\Local\\Temp\\ts-node-dev-hook-695015637784278.js:71:20)\n    at Object.nodeDevHook [as .ts] (D:\\demo\\Assignment-for-Evaluation\\backend\\node_modules\\ts-node-dev\\lib\\hook.js:63:13)\n    at Module.load (node:internal/modules/cjs/loader:1317:32)","timestamp":"2024-10-21T10:01:25.822Z","trace":[{"column":15,"file":"D:\\demo\\Assignment-for-Evaluation\\backend\\node_modules\\express\\lib\\router\\route.js","function":"Route.<computed> [as post]","line":216,"method":"<computed> [as post]","native":false},{"column":19,"file":"D:\\demo\\Assignment-for-Evaluation\\backend\\node_modules\\express\\lib\\router\\index.js","function":"Function.proto.<computed> [as post]","line":521,"method":"<computed> [as post]","native":false},{"column":17,"file":"D:\\demo\\Assignment-for-Evaluation\\backend\\src\\routes\\user.route.ts","function":"UserRoutes.routes","line":27,"method":"routes","native":false},{"column":10,"file":"D:\\demo\\Assignment-for-Evaluation\\backend\\src\\routes\\user.route.ts","function":"new UserRoutes","line":12,"method":null,"native":false},{"column":24,"file":"D:\\demo\\Assignment-for-Evaluation\\backend\\src\\routes\\index.ts","function":"routes","line":15,"method":null,"native":false},{"column":52,"file":"D:\\demo\\Assignment-for-Evaluation\\backend\\src\\index.ts","function":"App.initializeRoutes","line":52,"method":"initializeRoutes","native":false},{"column":10,"file":"D:\\demo\\Assignment-for-Evaluation\\backend\\src\\index.ts","function":"new App","line":33,"method":null,"native":false},{"column":13,"file":"D:\\demo\\Assignment-for-Evaluation\\backend\\src\\index.ts","function":null,"line":74,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1546,"method":"_compile","native":false},{"column":25,"file":"D:\\demo\\Assignment-for-Evaluation\\backend\\node_modules\\source-map-support\\source-map-support.js","function":"Module._compile","line":568,"method":"_compile","native":false},{"column":33,"file":"C:\\Users\\hp\\AppData\\Local\\Temp\\ts-node-dev-hook-695015637784278.js","function":"Module.m._compile","line":69,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1691,"method":".js","native":false},{"column":20,"file":"C:\\Users\\hp\\AppData\\Local\\Temp\\ts-node-dev-hook-695015637784278.js","function":"require.extensions..jsx.require.extensions..js","line":114,"method":".js","native":false},{"column":20,"file":"C:\\Users\\hp\\AppData\\Local\\Temp\\ts-node-dev-hook-695015637784278.js","function":"require.extensions.<computed>","line":71,"method":"<computed>","native":false},{"column":13,"file":"D:\\demo\\Assignment-for-Evaluation\\backend\\node_modules\\ts-node-dev\\lib\\hook.js","function":"Object.nodeDevHook [as .ts]","line":63,"method":"ts]","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":1317,"method":"load","native":false}]}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-10-21T10:01:30.297Z"}
+info: Connected to the database. {"timestamp":"2024-10-21T10:01:30.324Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-10-21T10:37:40.165Z"}
+info: Connected to the database. {"timestamp":"2024-10-21T10:37:40.195Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-10-21T10:47:11.271Z"}
+info: Connected to the database. {"timestamp":"2024-10-21T10:47:11.289Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-10-21T10:47:26.931Z"}
+info: Connected to the database. {"timestamp":"2024-10-21T10:47:26.949Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-10-21T10:49:16.692Z"}
+info: Connected to the database. {"timestamp":"2024-10-21T10:49:16.711Z"}
+error: 
+      status - 400
+      message - Authorization token is required 
+      url - /api/v1/admin/register 
+      method - GET 
+      IP - ::1
+     {"timestamp":"2024-10-21T10:49:54.399Z"}
+error: 
+    status - 500 
+    message - Error: Email already exists
+    at AdminService.<anonymous> (D:\demo\Assignment-for-Evaluation\backend\src\services\admin.service.ts:18:13)
+    at Generator.next (<anonymous>)
+    at fulfilled (D:\demo\Assignment-for-Evaluation\backend\src\services\admin.service.ts:5:58)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5) 
+    url - /api/v1/admin/register 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-10-21T10:50:04.491Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-10-21T11:01:44.260Z"}
+info: Connected to the database. {"timestamp":"2024-10-21T11:01:44.277Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-10-21T11:01:53.287Z"}
+info: Connected to the database. {"timestamp":"2024-10-21T11:01:53.308Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-10-21T11:05:16.143Z"}
+info: Connected to the database. {"timestamp":"2024-10-21T11:05:16.161Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-10-21T11:16:32.581Z"}
+info: Connected to the database. {"timestamp":"2024-10-21T11:16:32.601Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-10-21T11:16:38.177Z"}
+info: Connected to the database. {"timestamp":"2024-10-21T11:16:38.194Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-10-21T11:34:19.030Z"}
+info: Connected to the database. {"timestamp":"2024-10-21T11:34:19.050Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-10-21T11:34:33.675Z"}
+info: Connected to the database. {"timestamp":"2024-10-21T11:34:33.694Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-10-21T11:50:45.450Z"}
+info: Connected to the database. {"timestamp":"2024-10-21T11:50:45.470Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-10-21T11:52:27.441Z"}
+info: Connected to the database. {"timestamp":"2024-10-21T11:52:27.460Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-10-21T11:54:58.374Z"}
+info: Connected to the database. {"timestamp":"2024-10-21T11:54:58.393Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-10-21T11:55:00.883Z"}
+info: Connected to the database. {"timestamp":"2024-10-21T11:55:00.901Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-10-21T11:56:07.885Z"}
+info: Connected to the database. {"timestamp":"2024-10-21T11:56:07.902Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-10-21T11:56:29.510Z"}
+info: Connected to the database. {"timestamp":"2024-10-21T11:56:29.527Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-10-21T11:58:16.613Z"}
+info: Connected to the database. {"timestamp":"2024-10-21T11:58:16.636Z"}
+error: uncaughtException: Route.delete() requires a callback function but got a [object Undefined]
+Error: Route.delete() requires a callback function but got a [object Undefined]
+    at Route.<computed> [as delete] (D:\demo\Assignment-for-Evaluation\backend\node_modules\express\lib\router\route.js:216:15)
+    at Function.proto.<computed> [as delete] (D:\demo\Assignment-for-Evaluation\backend\node_modules\express\lib\router\index.js:521:19)
+    at AdminRoutes.routes (D:\demo\Assignment-for-Evaluation\backend\src\routes\admin.route.ts:40:23)
+    at new AdminRoutes (D:\demo\Assignment-for-Evaluation\backend\src\routes\admin.route.ts:12:10)
+    at routes (D:\demo\Assignment-for-Evaluation\backend\src\routes\index.ts:17:24)
+    at App.initializeRoutes (D:\demo\Assignment-for-Evaluation\backend\src\index.ts:52:52)
+    at new App (D:\demo\Assignment-for-Evaluation\backend\src\index.ts:33:10)
+    at Object.<anonymous> (D:\demo\Assignment-for-Evaluation\backend\src\index.ts:74:13)
+    at Module._compile (node:internal/modules/cjs/loader:1546:14)
+    at Module._compile (D:\demo\Assignment-for-Evaluation\backend\node_modules\source-map-support\source-map-support.js:568:25)
+    at Module.m._compile (C:\Users\hp\AppData\Local\Temp\ts-node-dev-hook-695015637784278.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1691:10)
+    at require.extensions..jsx.require.extensions..js (C:\Users\hp\AppData\Local\Temp\ts-node-dev-hook-695015637784278.js:114:20)
+    at require.extensions.<computed> (C:\Users\hp\AppData\Local\Temp\ts-node-dev-hook-695015637784278.js:71:20)
+    at Object.nodeDevHook [as .ts] (D:\demo\Assignment-for-Evaluation\backend\node_modules\ts-node-dev\lib\hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:1317:32) {"date":"Mon Oct 21 2024 17:35:13 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":26843.078},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","./src/index.ts"],"cwd":"D:\\demo\\Assignment-for-Evaluation\\backend","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18385533,"external":20633883,"heapTotal":56537088,"heapUsed":27078432,"rss":79503360},"pid":23488,"uid":null,"version":"v22.9.0"},"stack":"Error: Route.delete() requires a callback function but got a [object Undefined]\n    at Route.<computed> [as delete] (D:\\demo\\Assignment-for-Evaluation\\backend\\node_modules\\express\\lib\\router\\route.js:216:15)\n    at Function.proto.<computed> [as delete] (D:\\demo\\Assignment-for-Evaluation\\backend\\node_modules\\express\\lib\\router\\index.js:521:19)\n    at AdminRoutes.routes (D:\\demo\\Assignment-for-Evaluation\\backend\\src\\routes\\admin.route.ts:40:23)\n    at new AdminRoutes (D:\\demo\\Assignment-for-Evaluation\\backend\\src\\routes\\admin.route.ts:12:10)\n    at routes (D:\\demo\\Assignment-for-Evaluation\\backend\\src\\routes\\index.ts:17:24)\n    at App.initializeRoutes (D:\\demo\\Assignment-for-Evaluation\\backend\\src\\index.ts:52:52)\n    at new App (D:\\demo\\Assignment-for-Evaluation\\backend\\src\\index.ts:33:10)\n    at Object.<anonymous> (D:\\demo\\Assignment-for-Evaluation\\backend\\src\\index.ts:74:13)\n    at Module._compile (node:internal/modules/cjs/loader:1546:14)\n    at Module._compile (D:\\demo\\Assignment-for-Evaluation\\backend\\node_modules\\source-map-support\\source-map-support.js:568:25)\n    at Module.m._compile (C:\\Users\\hp\\AppData\\Local\\Temp\\ts-node-dev-hook-695015637784278.js:69:33)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1691:10)\n    at require.extensions..jsx.require.extensions..js (C:\\Users\\hp\\AppData\\Local\\Temp\\ts-node-dev-hook-695015637784278.js:114:20)\n    at require.extensions.<computed> (C:\\Users\\hp\\AppData\\Local\\Temp\\ts-node-dev-hook-695015637784278.js:71:20)\n    at Object.nodeDevHook [as .ts] (D:\\demo\\Assignment-for-Evaluation\\backend\\node_modules\\ts-node-dev\\lib\\hook.js:63:13)\n    at Module.load (node:internal/modules/cjs/loader:1317:32)","timestamp":"2024-10-21T12:05:13.056Z","trace":[{"column":15,"file":"D:\\demo\\Assignment-for-Evaluation\\backend\\node_modules\\express\\lib\\router\\route.js","function":"Route.<computed> [as delete]","line":216,"method":"<computed> [as delete]","native":false},{"column":19,"file":"D:\\demo\\Assignment-for-Evaluation\\backend\\node_modules\\express\\lib\\router\\index.js","function":"Function.proto.<computed> [as delete]","line":521,"method":"<computed> [as delete]","native":false},{"column":23,"file":"D:\\demo\\Assignment-for-Evaluation\\backend\\src\\routes\\admin.route.ts","function":"AdminRoutes.routes","line":40,"method":"routes","native":false},{"column":10,"file":"D:\\demo\\Assignment-for-Evaluation\\backend\\src\\routes\\admin.route.ts","function":"new AdminRoutes","line":12,"method":null,"native":false},{"column":24,"file":"D:\\demo\\Assignment-for-Evaluation\\backend\\src\\routes\\index.ts","function":"routes","line":17,"method":null,"native":false},{"column":52,"file":"D:\\demo\\Assignment-for-Evaluation\\backend\\src\\index.ts","function":"App.initializeRoutes","line":52,"method":"initializeRoutes","native":false},{"column":10,"file":"D:\\demo\\Assignment-for-Evaluation\\backend\\src\\index.ts","function":"new App","line":33,"method":null,"native":false},{"column":13,"file":"D:\\demo\\Assignment-for-Evaluation\\backend\\src\\index.ts","function":null,"line":74,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1546,"method":"_compile","native":false},{"column":25,"file":"D:\\demo\\Assignment-for-Evaluation\\backend\\node_modules\\source-map-support\\source-map-support.js","function":"Module._compile","line":568,"method":"_compile","native":false},{"column":33,"file":"C:\\Users\\hp\\AppData\\Local\\Temp\\ts-node-dev-hook-695015637784278.js","function":"Module.m._compile","line":69,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1691,"method":".js","native":false},{"column":20,"file":"C:\\Users\\hp\\AppData\\Local\\Temp\\ts-node-dev-hook-695015637784278.js","function":"require.extensions..jsx.require.extensions..js","line":114,"method":".js","native":false},{"column":20,"file":"C:\\Users\\hp\\AppData\\Local\\Temp\\ts-node-dev-hook-695015637784278.js","function":"require.extensions.<computed>","line":71,"method":"<computed>","native":false},{"column":13,"file":"D:\\demo\\Assignment-for-Evaluation\\backend\\node_modules\\ts-node-dev\\lib\\hook.js","function":"Object.nodeDevHook [as .ts]","line":63,"method":"ts]","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":1317,"method":"load","native":false}]}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-10-21T12:05:26.148Z"}
+info: Connected to the database. {"timestamp":"2024-10-21T12:05:26.171Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-10-21T12:05:40.831Z"}
+info: Connected to the database. {"timestamp":"2024-10-21T12:05:40.856Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-10-21T12:08:09.482Z"}
+info: Connected to the database. {"timestamp":"2024-10-21T12:08:09.509Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-10-21T12:11:54.617Z"}
+info: Connected to the database. {"timestamp":"2024-10-21T12:11:54.646Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-10-21T12:12:08.212Z"}
+info: Connected to the database. {"timestamp":"2024-10-21T12:12:08.241Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-10-21T12:12:24.273Z"}
+info: Connected to the database. {"timestamp":"2024-10-21T12:12:24.303Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-10-21T12:13:02.493Z"}
+info: Connected to the database. {"timestamp":"2024-10-21T12:13:02.523Z"}
+error: 
+    status - 500 
+    message - Error: Invalid email or password
+    at UserService.<anonymous> (D:\demo\Assignment-for-Evaluation\backend\src\services\user.service.ts:32:13)
+    at Generator.next (<anonymous>)
+    at fulfilled (D:\demo\Assignment-for-Evaluation\backend\src\services\user.service.ts:5:58)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5) 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-10-21T12:43:05.491Z"}
+error: 
+    status - 500 
+    message - Error: Invalid email or password
+    at UserService.<anonymous> (D:\demo\Assignment-for-Evaluation\backend\src\services\user.service.ts:36:13)
+    at Generator.next (<anonymous>)
+    at fulfilled (D:\demo\Assignment-for-Evaluation\backend\src\services\user.service.ts:5:58) 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-10-21T12:43:31.079Z"}
